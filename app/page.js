@@ -8,12 +8,11 @@ export default function Home() {
   const scrollRef = useRef(null);
 
   const experiences = [
-    { title: "Project 1", link: "/experiences" },
-    { title: "Leadership Role", link: "/experiences" },
-    { title: "Internship", link: "/experiences" },
-    { title: "Example 2", link: "/experiences" },
-    { title: "Example 3", link: "/experiences" },
-    { title: "Example 4", link: "/experiences" },
+    { title: "Financial App", link: "/experiences" },
+    { title: "Student Minister", link: "/experiences" },
+    { title: "FAST Internship", link: "/experiences" },
+    { title: "Portfolio Website", link: "/experiences" },
+    { title: "Coming Soon...", link: "/experiences" },
   ];
 
   return (
