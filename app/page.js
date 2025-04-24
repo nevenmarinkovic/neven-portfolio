@@ -26,12 +26,13 @@ export default function Home() {
       <section className="flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto px-4 gap-8">
         <div className="w-full md:w-1/2">
           <Image
-            src="/globe.jpg" // replace with your image in public/
-            alt="Profile"
+            src="/Hannah2.PNG" // replace with your image in public/
+            alt="Hiking"
             width={500}
             height={400}
-            className="rounded-lg shadow-lg"
+            className="rounded-lg"
           />
+
         </div>
         <div className="w-full md:w-1/2 space-y-4">
           <h2 className="text-2xl font-semibold">A little about me</h2>
