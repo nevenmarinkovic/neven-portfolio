@@ -8,11 +8,11 @@ export default function Home() {
   const scrollRef = useRef(null);
 
   const experiences = [
-    { title: "Financial App", link: "/experiences" },
-    { title: "Student Minister", link: "/experiences" },
-    { title: "FAST Internship", link: "/experiences" },
-    { title: "Portfolio Website", link: "/experiences" },
-    { title: "Coming Soon...", link: "/experiences" },
+    { title: "Financial App", link: "/experiences", desc: "A financial app that helps users manage their finances." },
+    { title: "Student Minister", link: "/experiences", desc: "A student minister who helps students grow in their faith." },
+    { title: "FAST Internship", link: "/experiences", desc: "An internship at FAST where I learned about software development." },
+    { title: "Portfolio Website", link: "/experiences", desc: "A portfolio website that showcases my work." },
+    { title: "Coming Soon...", link: "/experiences", desc: "More experiences will be added soon!" },
   ];
 
   return (
@@ -63,7 +63,7 @@ export default function Home() {
           {/* This wrapper centers the button */}
           <div className="flex justify-center">
             <Link href="/about">
-              <button className="mt-4 px-6 py-2 bg-[#245E6B] text-white rounded hover:bg-[#D2ECF0]">
+              <button className="mt-4 px-6 py-2 bg-white dark:bg-gray-800 text-white rounded hover:bg-[#D2ECF0]">
                 Learn More
               </button>
             </Link>
@@ -74,19 +74,23 @@ export default function Home() {
       {/* Experiences Card Slider Section */}
       <section className="relative overflow-x-auto max-w-full px-4 bg-[#D3D3D3]">
       <h2 className="text-center text-3xl font-bold text-black py-8">My Experiences</h2>
-        <div ref={scrollRef} className="mx-auto h-100 scrollbar-thin scrollbar-thumb-[#2E798A] scrollbar-track-[#f1f1f1] flex gap-8 overflow-x-scroll pb-4">
+      <div className= "flex justify-center">
+        <div ref={scrollRef} className="mx-auto h-65 scrollbar-thin scrollbar-thumb-[#2E798A] scrollbar-track-[#f1f1f1] flex gap-8 overflow-x-scroll pb-4">
           {experiences.map((exp, i) => (
             <Link key={i} href={exp.link}>
-              <div className="min-w-[250px] min-h-[300px] bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 hover:scale-105 transition cursor-pointer">
+              <div className="w-[250px] h-[200px] bg-white dark:bg-gray-800 rounded-l shadow-md p-6 hover:scale-110 transition cursor-pointer">
                 <h3 className="text-lg font-semibold">{exp.title}</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-300 mt-2">
-                  Click to learn more
+                  {exp.desc}
                 </p>
               </div>
             </Link>
           ))}
         </div>
+        </div>
       </section>
-    </div>
+
+      {/* Footer */}
+      </div>
   );
 }
