@@ -1,6 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Proposal
+Upon reading through the final project overview on our class's website, I was not feeling enthused to spend more time with p5.js. I reached out to Corey and asked him if I could work on a personal portfolio website instead. I've been wanting to create a personal website for quite some time and thought that it was fitting for this class as it's both coding and creative. 
 
-## Getting Started
+1.  For my final project, I'd like to develop the UI for my personal website. Since this class is focused on creative coding, I figured I'd focus on that aspect of the website. Additionally, full development and deployment of a website is outside the level of effort for this project. While I plan on doing that someday, I want to focus on the UI for now. Specifically, I'd like to develop and work on the following pages:
+* Home page
+* About page
+* Experience pages (layout only). Since I have a handful of experiences I want to include on this site, there's a lot of writing to be done. I'd like to get the general layout of these pages down before I add content.
+2. I've looked at square spaces portfolio examples for inspiration (https://www.squarespace.com/templates/browse/topic/all-templates/type/portfolio) as well as designed my own web pages using Lucid chart before developing.
+3. I did some research and learned that Next.js and tailwind.css are common tools used to build dynamic websites. Even though I'm just displaying static content (for now), I wanted to push myself to learn something new with this framework. I haven't had a ton of experience with HTML/CSS/JS in general, so there will be some new things I learn through this project as well.
+4. The following are the self-imposed deadlines for my project that will help me complete my project on time:
+* Monday 4/28 - Complete initial website set up and home page design
+* Friday 5/2 - Complete about me and experience page layout design
+* Monday 5/5 - Complete final design checks and report write up
+5. This week I completed the initial set up and completed my home page design.
+
+
+
+## App Details
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
