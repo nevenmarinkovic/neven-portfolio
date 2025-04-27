@@ -8,11 +8,10 @@ export default function Home() {
   const scrollRef = useRef(null);
 
   const experiences = [
-    { title: "Financial App", link: "/experiences", desc: "A financial app that helps users manage their finances." },
-    { title: "Student Minister", link: "/experiences", desc: "A student minister who helps students grow in their faith." },
-    { title: "FAST Internship", link: "/experiences", desc: "An internship at FAST where I learned about software development." },
-    { title: "Portfolio Website", link: "/experiences", desc: "A portfolio website that showcases my work." },
-    { title: "Coming Soon...", link: "/experiences", desc: "More experiences will be added soon!" },
+    { title: "Financial App", link: "/experiences", desc: "I developed an internal financial app for the finance director of the College of Business to streamline payroll tracking." },
+    { title: "Student Minister", link: "/experiences", desc: "I currently work for the college church I have been a part of during my time in Missoula. Through this job, I learned a ton about communication, leadership, people, and myself." },
+    { title: "FAST Internship", link: "/experiences", desc: "I went to Boston in between my junior and senior year to work on an unemployment insurance project for the state of Massachusetts. This was my first 'real job'." },
+    { title: "Portfolio Website", link: "/experiences", desc: "The website your currently on! This was a dream of mine for quite some time." },
   ];
 
   return (
@@ -53,17 +52,16 @@ export default function Home() {
 
         </div>
         <div className="w-full md:w-1/2 space-y-4 bg-[#A8DCF0] mx-auto p-6 rounded-lg shadow-md items-center justify-center">
-          <h2 className="text-2xl text-black font-semibold text-center">A little about me</h2>
+          <h2 className="text-2xl text-black font-semibold text-center font-serif">A little about me</h2>
           <p className="text-black dark:text-black-300 font-serif">
-            I'm Neven Marinkovic — a student, builder, and leader with a passion
-            for tech and people. This site highlights some of the work and roles
-            I’ve taken on along the way.
+            I'm Neven Marinkovic, a follower of Christ, graduating senior from the University of Montana, associate consultant with Ravus, soon-to-be married man, 
+            and lover of pickleball. That was a lot, click the button below to read more about me and my story.
           </p>
           
           {/* This wrapper centers the button */}
           <div className="flex justify-center">
             <Link href="/about">
-              <button className="mt-4 px-6 py-2 bg-white dark:bg-gray-800 text-white rounded hover:bg-[#D2ECF0]">
+              <button className="mt-4 px-6 py-2 bg-white dark:bg-gray-800 text-white rounded hover:bg-[#D2ECF0] font-serif">
                 Learn More
               </button>
             </Link>
