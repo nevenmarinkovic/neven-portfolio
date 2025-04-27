@@ -54,7 +54,7 @@ export default function Home() {
         </div>
         <div className="w-full md:w-1/2 space-y-4 bg-[#A8DCF0] mx-auto p-6 rounded-lg shadow-md items-center justify-center">
           <h2 className="text-2xl text-black font-semibold text-center">A little about me</h2>
-          <p className="text-black dark:text-black-300">
+          <p className="text-black dark:text-black-300 font-serif">
             I'm Neven Marinkovic — a student, builder, and leader with a passion
             for tech and people. This site highlights some of the work and roles
             I’ve taken on along the way.
