@@ -66,52 +66,60 @@ export default function Page() {
             </p>
           </div>
 
-        <div className="w-full max-w-5xl space-y-4 mx-auto p-6 rounded-lg items-center justify-center">
-          <h2 className="text-black text-2xl md:text-6xl py-4 font-bold">Looking Forward</h2>
-        </div>
 
-      <section className="flex flex-col md:flex-row items-center justify-between max-w-full ">
-      <div className="max-w-lg h-full md:w-1/2 mx-auto">
-          <Image
-            src="/Engaged.jpg" // replace with your image in public/
-            alt="Engaged"
-            width={1000}
-            height={1000}
-            className="rounded-lg"
-          />
-        </div>
-        <div className="w-full md:w-1/2 space-y-4 mx-auto p-6 rounded-lg items-center justify-center">
-        
-        <p className="text-black dark:text-black-300 font-serif">
-            I'm super blessed to be marrying my best friend, Hannah, right after graduation in May. Hannah is a also a follower of Christ and has been a huge part of my life since meeting her at the recreation center in the fall of 2023. Hannah is graduating from The University of Montana Law School in May.
-            She is a 2nd Liuetenant in the Marines and plans on joining their Judge Advocate Division. She is strong, smart, passionate, and so fun to spend time with. I am so excited to be marrying her and starting a family together. Hannah and I enjoy running, hiking, weight lifting, playing spike ball, and reading. 
-            This photo was taken right after I proposed to her (we were on a run).
-          </p>
-      </div>
-      </section>
 
-      <section className="flex flex-col md:flex-row items-center justify-between max-w-full ">
-      <div className="w-full md:w-1/2 space-y-4 mx-auto p-6 rounded-lg items-center justify-center">
-          <p className="text-black dark:text-black-300 font-serif">
-            Due to Hannah's job, we will be moving around a lot in the next few years. We are both super excited about this as it will allow us to see new places and meet new people. It meant that, when I was looking for a full time job, I needed to find a place that would allow me to work remote.
-            I was very grateful to find a role with Ravus. Ravus is a Missoula based consulting firm that specializes in helping customers implement BillingPlatform and Stripe to optimize their billing and revenue management processes. When interviewing with them, I was immidiately drawn to their 
-            culture and values. Ravus is a group of people who are passionate about delivering quality work to their customers. It's been a joy to work with them in a part-time capacity during my last semester. I'm very excited to start full time with them in August.
-          </p>
-      </div>
-        
-        <div className="max-w-lg h-full md:w-1/2 mx-auto">
-          <Image
-            src="/Ravus2.png" // replace with your image in public/
-            alt="Ravus"
-            width={1000}
-            height={500}
-            className="rounded-lg"
-          />
+          <section className="flex flex-col items-center max-w-full bg-[#D3D3D3] py-8">
+  
+            {/* Heading */}
+            <h2 className="text-black text-2xl md:text-6xl py-8 font-bold">
+              Looking Forward
+            </h2>
 
-        </div>
-        
-      </section>
+            {/* Flex container for image and text */}
+            <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl px-4">
+              
+              {/* Image */}
+              <div className="max-w-lg h-full md:w-1/2 mx-auto py-4">
+                <Image
+                  src="/Engaged.jpg" // replace with your image in public/
+                  alt="Engaged"
+                  width={1000}
+                  height={1000}
+                  className="rounded-lg"
+                />
+              </div>
 
+              {/* Text */}
+              <div className="w-full md:w-1/2 space-y-4 mx-auto p-6 rounded-lg flex items-center justify-center">
+                <p className="text-black dark:text-black-300 font-serif">
+                  I'm super blessed to be marrying my best friend, Hannah, right after graduation in May. Hannah is also a follower of Christ and has been a huge part of my life since meeting her at the recreation center in the fall of 2023. Hannah is graduating from The University of Montana Law School in May.
+                  She is a 2nd Lieutenant in the Marines and plans on joining their Judge Advocate Division. She is strong, smart, passionate, and so fun to spend time with. I am so excited to be marrying her and starting a family together. Hannah and I enjoy running, hiking, weight lifting, playing spike ball, and reading. 
+                  This photo was taken right after I proposed to her (we were on a run).
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl py-4 px-4">
+                <div className="w-full md:w-1/2 space-y-4 mx-auto p-6 rounded-lg items-center justify-center">
+                  <p className="text-black dark:text-black-300 font-serif">
+                    Due to Hannah's job, we will be moving around a lot in the next few years. We are both super excited about this as it will allow us to see new places and meet new people. It meant that, when I was looking for a full time job, I needed to find a place that would allow me to work remote.
+                    I was very grateful to find a role with Ravus. Ravus is a Missoula based consulting firm that specializes in helping customers implement BillingPlatform and Stripe to optimize their billing and revenue management processes. When interviewing with them, I was immidiately drawn to their 
+                    culture and values. Ravus is a group of people who are passionate about delivering quality work to their customers. It's been a joy to work with them in a part-time capacity during my last semester. I'm very excited to start full time with them in August.
+                  </p>
+                </div>
+            
+                <div className="max-w-lg h-full md:w-1/2 mx-auto">
+                  <Image
+                    src="/Ravus2.png" // replace with your image in public/
+                    alt="Ravus"
+                    width={1000}
+                    height={500}
+                    className="rounded-lg"
+                  />
+
+                </div>
+            </div>
+          </section>
       </div>
     );
   }
