@@ -17,6 +17,10 @@ Upon reading through the final project overview on our class's website, I was no
 
 ## App Details
 
+## To-do
+* Think about paragraph formatting on about and experience pages. Make sure to break up the text. Increase font size?
+* Make the app flexible for mobile formats
+
 ### References
 * https://www.pexels.com/photo/urban-street-with-parked-cars-in-city-setting-31760079/
 * https://www.pexels.com/photo/photo-of-turned-on-laptop-computer-943096/
