@@ -3,40 +3,28 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/navbar";
 import { useRef } from "react";
+import HeroSection from "@/components/heroSection";
 
 export default function Home() {
   const scrollRef = useRef(null);
 
   const experiences = [
     { title: "Financial App", link: "/experiences", desc: "I developed an internal financial app for the finance director of the College of Business to streamline payroll tracking." },
-    { title: "Student Minister", link: "/experiences", desc: "I currently work for the college church I have been a part of during my time in Missoula. Through this job, I learned a ton about communication, leadership, people, and myself." },
-    { title: "FAST Internship", link: "/experiences", desc: "I went to Boston in between my junior and senior year to work on an unemployment insurance project for the state of Massachusetts. This was my first 'real job'." },
-    { title: "Portfolio Website", link: "/experiences", desc: "The website your currently on! This was a dream of mine for quite some time." },
+    { title: "Student Minister", link: "/experiences/ministry", desc: "I currently work for the college church I have been a part of during my time in Missoula. Through this job, I learned a ton about communication, leadership, people, and myself." },
+    { title: "FAST Internship", link: "/experiences/internship", desc: "I went to Boston in between my junior and senior year to work on an unemployment insurance project for the state of Massachusetts. This was my first 'real job'." },
+    { title: "Portfolio Website", link: "/experiences/portfolio", desc: "The website your currently on! This was a dream of mine for quite some time." },
   ];
 
   return (
     <div className="space-y-16">
 
-    <div className="relative h-screen">
-          {/* Background image */}
-          <img
-            src="/Flathead.jpg"
-            alt="Background"
-            className="absolute inset-0 h-full w-full object-cover opacity-70"
-          />
-
-          {/* Overlay (optional dark tint) */}
-          <div className="absolute inset-0 bg-black/30 z-0" />
-
-          {/* Content on top */}
-          <div className="relative z-10">
-            <Navbar />
-            <div className="flex flex-col items-center justify-center h-[calc(100vh-4rem)] text-white text-center px-4">
-              <h1 className="text-4xl md:text-6xl font-bold">Hi, I'm Neven</h1>
-              <p className="mt-4 text-lg md:text-xl">Welcome to my site!</p>
-            </div>
-          </div>
-        </div>
+    <HeroSection
+        imageSrc={"Flathead.jpg"}
+        heading={"Flathead"}
+        text={"Hi, I'm Neven"}
+        secondText={"Welcome to my site!"}
+        >
+    </HeroSection>
       
 
       {/* About Section */}

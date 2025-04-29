@@ -3,31 +3,20 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/navbar";
 import { useRef } from "react";
+import HeroSection from "@/components/heroSection";
 
 export default function Page() {
     return (
       //This is the initial photo and navbar part of the page
       <div className="space-y-16">
-      
-          <div className="relative h-screen">
-                {/* Background image */}
-                <img
-                  src="/Glacier.jpg"
-                  alt="Background"
-                  className="absolute inset-0 h-full w-full object-cover opacity-70"
-                />
-      
-                {/* Overlay (optional dark tint) */}
-                <div className="absolute inset-0 bg-black/30 z-0" />
-      
-                {/* Content on top */}
-                <div className="relative z-10">
-                  <Navbar />
-                  <div className="flex flex-col items-center justify-center h-[calc(100vh-4rem)] text-white text-center px-4">
-                    <h1 className="text-4xl md:text-6xl font-bold">This is me</h1>
-                  </div>
-                </div>
-              </div>
+
+        <HeroSection
+                imageSrc={"/Glacier.jpg"}
+                heading={"Glacier"}
+                text={"This is me"}
+                secondText={""}
+                >
+            </HeroSection>
 
 
         <div className="w-full max-w-5xl space-y-4 mx-auto p-6 rounded-lg items-center justify-center">

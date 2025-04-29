@@ -11,9 +11,9 @@ const navigation = [
     name: 'Experiences',
     current: false,
     dropdown: [
-      { name: 'Fast Internship', href: '/experiences/' },
-      { name: 'Student Minister', href: '/experiences/' },
-      { name: 'Portfolio Website', href: '/experiences/' },
+      { name: 'Fast Internship', href: '/experiences/internship' },
+      { name: 'Student Minister', href: '/experiences/ministry' },
+      { name: 'Portfolio Website', href: '/experiences/portfolio' },
       { name: 'Finance App', href: '/experiences/' },
     ],
   },

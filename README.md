@@ -17,6 +17,10 @@ Upon reading through the final project overview on our class's website, I was no
 
 ## App Details
 
+### References
+* https://www.pexels.com/photo/urban-street-with-parked-cars-in-city-setting-31760079/
+* https://www.pexels.com/photo/photo-of-turned-on-laptop-computer-943096/
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
