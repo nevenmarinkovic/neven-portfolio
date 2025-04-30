@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar";
 
-export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alternative2, heading1, heading2, text1, text2 }) {
+export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alternative2, heading1, heading2, text1, text2, text3, text4 }) {
   return (
 
     <div className="space-y-16">
@@ -28,9 +28,12 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                         </div>
           
                         {/* Text */}
-                        <div className="w-full md:w-1/2 space-y-4 mx-auto p-6 rounded-lg flex items-center justify-center">
+                        <div className="w-full md:w-1/2 space-y-4 mx-auto p-6 rounded-lg">
                           <p className="text-black dark:text-black-300 font-serif">
                             {text1}
+                          </p>
+                          <p className="text-black dark:text-black-300 font-serif">
+                            {text2}
                           </p>
                         </div>
                       </div>        
@@ -47,9 +50,12 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                       {/* Flex container for image and text */}
                       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl px-4">          
                         {/* Text */}
-                        <div className="w-full md:w-1/2 space-y-4 mx-auto p-6 rounded-lg flex items-center justify-center">
+                        <div className="w-full md:w-1/2 space-y-4 mx-auto p-6 rounded-lg">
                           <p className="text-black dark:text-black-300 font-serif">
-                            {text2}
+                            {text3}
+                          </p>
+                          <p className="text-black dark:text-black-300 font-serif">
+                            {text4}
                           </p>
                         </div>
                         
