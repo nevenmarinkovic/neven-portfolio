@@ -26,6 +26,7 @@ Upon reading through the final project overview on our class's website, I was no
 * https://www.pexels.com/photo/photo-of-turned-on-laptop-computer-943096/
 * Photo by https://unsplash.com/@jacksonsophat?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
 * https://www.pexels.com/photo/white-notebook-and-yellow-pencil-45718/
+* https://www.pexels.com/photo/close-up-photo-of-survey-spreadsheet-590022/
 
       
 

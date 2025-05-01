@@ -14,7 +14,7 @@ const navigation = [
       { name: 'Fast Internship', href: '/experiences/internship' },
       { name: 'Student Minister', href: '/experiences/ministry' },
       { name: 'Portfolio Website', href: '/experiences/portfolio' },
-      { name: 'Finance App', href: '/experiences/' },
+      { name: 'Finance App', href: '/experiences/finance' },
     ],
   },
 ]

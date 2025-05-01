@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar";
 
-export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alternative2, heading1, heading2, text1, text2, text3, text4 }) {
+export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alternative2, text1, text2, text3, text4 }) {
   return (
 
     <div className="space-y-16">
@@ -10,7 +10,7 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
             
                       {/* Heading */}
                       <h2 className="text-black text-2xl md:text-6xl py-8 font-bold">
-                        {heading1}
+                        What I did
                       </h2>
           
                       {/* Flex container for image and text */}
@@ -44,7 +44,7 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
             
                       {/* Heading */}
                       <h2 className="text-black text-2xl md:text-6xl py-8 font-bold">
-                        {heading2}
+                        What I learned
                       </h2>
           
                       {/* Flex container for image and text */}

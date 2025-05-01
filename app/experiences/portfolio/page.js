@@ -21,8 +21,6 @@ export default function Page() {
             alternative1={"HTML"}
             imageSrc2={"/design.jpg"}
             alternative2={"Design"}
-            heading1={"My personal portfolio"}
-            heading2={"What I learned"}
             text1=
             {"Paragraph 1"
 

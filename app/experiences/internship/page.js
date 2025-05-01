@@ -21,8 +21,6 @@ export default function Page() {
             alternative1={"Professional"}
             imageSrc2={"/Fenway.jpg"}
             alternative2={"Fenway"}
-            heading1={"What I did at FAST"}
-            heading2={"My Takeaways from the internship"}
             text1=
             {"During the summer of 2023, I went to Boston, Massachusetts to work on an Unemployment Insurance project for the state of Massachusetts. My role was 'Implementation Intern', which entailed me doing a combination of system configuration and solution development. "
               + "FAST hase a 'core system' that meets the needs of government agencies. However, the system is not a one-size-fits-all solution. The team I was on was in charge of the part of the system that made sure applicants were eligible for unemployment insurance. "
