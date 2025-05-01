@@ -24,6 +24,10 @@ Upon reading through the final project overview on our class's website, I was no
 ### References
 * https://www.pexels.com/photo/urban-street-with-parked-cars-in-city-setting-31760079/
 * https://www.pexels.com/photo/photo-of-turned-on-laptop-computer-943096/
+* Photo by https://unsplash.com/@jacksonsophat?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+* https://www.pexels.com/photo/white-notebook-and-yellow-pencil-45718/
+
+      
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

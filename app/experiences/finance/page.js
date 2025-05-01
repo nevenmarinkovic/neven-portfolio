@@ -2,8 +2,6 @@
 import HeroSection from "@/components/heroSection";
 import ExperienceBody from "@/components/experienceBody";
 
-
-
 export default function Page() {
     return (
         <div className="space-y-16">
@@ -11,17 +9,17 @@ export default function Page() {
           <HeroSection
             imageSrc={"/coding.jpg"}
             heading={"Coding"}
-            text={"Personal Portfolio"}
-            secondText={"Read about the process of building this site"}
+            text={"Internal Financial App"}
+            secondText={"Making my life easier"}
             >
             </HeroSection>
 
           <ExperienceBody
-            imageSrc1={"/html.jpg"}
-            alternative1={"HTML"}
-            imageSrc2={"/design.jpg"}
-            alternative2={"Design"}
-            heading1={"My personal portfolio"}
+            imageSrc1={"/financeApp.png"}
+            alternative1={"Finance App"}
+            imageSrc2={"/idea.jpg"}
+            alternative2={"Idea"}
+            heading1={"The process"}
             heading2={"What I learned"}
             text1=
             {"Paragraph 1"

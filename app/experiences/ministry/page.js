@@ -1,8 +1,4 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
-import Navbar from "@/components/navbar";
-import { useRef } from "react";
 import HeroSection from "@/components/heroSection";
 import ExperienceBody from "@/components/experienceBody";
 
