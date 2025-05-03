@@ -3,16 +3,22 @@ import Navbar from "@/components/navbar";
 import { motion } from "framer-motion";
 
 export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alternative2, imageSrc3, alternative3, text1, text2, text3, text4, text5, text6 }) {
+  const fadeVariant = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 },
+  };
+  
   return (
 
     <div className="space-y-16">
 
-      
-            <motion.div
-                    initial={{ opacity: 0, x: -50 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.5 }}
-                  >
+          <motion.section
+                  variants={fadeVariant}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 1.5 }}
+                >
                 <section className="flex flex-col items-center max-w-full py-8">
             
                       {/* Heading */}
@@ -56,13 +62,15 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                       </div>        
                     
                 </section>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-            >
+                </motion.section>
+  
+                <motion.section
+                  variants={fadeVariant}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 1.5 }}
+                >
                   <section className="flex flex-col items-center max-w-full py-8 bg-[#D3D3D3]">
                 
                 {/* Heading */}
@@ -98,8 +106,7 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                         </div>    
                       </div>  
                 </section>
-            </motion.div>
-                
+                </motion.section>
             </div>
   )
 }

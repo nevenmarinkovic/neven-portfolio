@@ -4,9 +4,20 @@ import Link from "next/link";
 import Navbar from "@/components/navbar";
 import { useRef } from "react";
 import HeroSection from "@/components/heroSection";
+import {motion, useInView} from "framer-motion";
 
 export default function Home() {
   const scrollRef = useRef(null);
+
+  // Refs for sections
+  const heroRef = useRef(null);
+  const firstSectionRef = useRef(null);
+  const secondSectionRef = useRef(null);
+
+  // Detect when sections are in view
+  const isHeroInView = useInView(heroRef, { once: true });
+  const isFirstSectionInView = useInView(firstSectionRef, { once: true });
+  const isSecondSectionInView = useInView(secondSectionRef, { once: true });
 
   const experiences = [
     { title: "Financial App", link: "/experiences", desc: "I developed an internal financial app for the finance director of the College of Business to streamline payroll tracking." },
@@ -18,15 +29,30 @@ export default function Home() {
   return (
     <div className="space-y-16">
 
-    <HeroSection
-        imageSrc={"Flathead.jpg"}
-        heading={"Flathead"}
-        text={"Hi, I'm Neven"}
-        secondText={"Welcome to my site!"}
-        >
-    </HeroSection>
+    <motion.div
+        ref={heroRef}
+        initial={{ opacity: 0, y: -50 }}
+        animate={isHeroInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.5 }}
+        className="motion-container"
+      >
+      <HeroSection
+          imageSrc={"Flathead.jpg"}
+          heading={"Flathead"}
+          text={"Hi, I'm Neven"}
+          secondText={"Welcome to my site!"}
+          >
+      </HeroSection>
+      </motion.div>
+    
       
 
+      <motion.div
+        ref={firstSectionRef}
+        initial={{ opacity: 0, y: -50 }}
+        animate={isFirstSectionInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 1.5 }}
+      >
       {/* About Section */}
       <section className="flex flex-col md:flex-row items-center justify-between max-w-full ">
         <div className="max-w-lg h-full md:w-1/2 mx-auto">
@@ -56,7 +82,14 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </motion.div>
 
+      <motion.div
+        ref={secondSectionRef}
+        initial={{ opacity: 0, y: -50 }}
+        animate={isSecondSectionInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 1.5 }}
+      >
       {/* Experiences Card Slider Section */}
       <section className="relative overflow-x-auto max-w-full px-4 bg-[#D3D3D3]">
       <h2 className="text-center text-3xl font-bold text-black py-8">My Experiences</h2>
@@ -75,8 +108,7 @@ export default function Home() {
         </div>
         </div>
       </section>
-
-      {/* Footer */}
+      </motion.div>
       </div>
   );
 }
