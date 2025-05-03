@@ -2,7 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/navbar";
 import { motion } from "framer-motion";
 
-export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alternative2, imageSrc3, alternative3, text1, text2, text3, text4, text5, text6 }) {
+export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alternative2, imageSrc3, alternative3, imageSrc4, alternative4, text1, text2, text3, text4, text5, text6 }) {
   const fadeVariant = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
@@ -95,7 +95,7 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                   
 
                       {/* Image */}
-                        <div className="max-w-lg h-full md:w-1/2 mx-auto py-4">
+                        <div className="max-w-lg h-full md:w-1/2 mx-auto py-4 space-y-16">
                           <Image
                             src={imageSrc3} // replace with your image in public/
                             alt={alternative3}
@@ -103,6 +103,15 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                             height={1000}
                             className="rounded-lg"
                           />
+                          {imageSrc4 && (
+                            <Image
+                              src={imageSrc4} // replace with your image in public/
+                              alt={alternative4}
+                              width={1000}
+                              height={1000}
+                              className="rounded-lg"
+                            />
+                          )}
                         </div>    
                       </div>  
                 </section>
