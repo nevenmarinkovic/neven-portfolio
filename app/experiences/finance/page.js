@@ -17,8 +17,8 @@ export default function Page() {
           <ExperienceBody
             imageSrc1={"/montana.jpg"}
             alternative1={"Montana"}
-            imageSrc2={"/idea.jpg"}
-            alternative2={"Idea"}
+            imageSrc3={"/idea.jpg"}
+            alternative3={"Idea"}
             text1=
             {"Paragraph 1"
 

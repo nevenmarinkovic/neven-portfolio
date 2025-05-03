@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar";
 
-export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alternative2, text1, text2, text3, text4 }) {
+export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alternative2, imageSrc3, alternative3, text1, text2, text3, text4, text5, text6 }) {
   return (
 
     <div className="space-y-16">
@@ -13,11 +13,9 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                         What I did
                       </h2>
           
-                      {/* Flex container for image and text */}
+                      
                       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl px-4">
-                        
-                        {/* Image */}
-                        <div className="max-w-lg h-full md:w-1/2 mx-auto py-4">
+                        <div className="max-w-lg h-full md:w-1/2 mx-auto py-8 space-y-48">
                           <Image
                             src={imageSrc1} // replace with your image in public/
                             alt={alternative1}
@@ -25,15 +23,27 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                             height={1000}
                             className="rounded-lg"
                           />
+                          {imageSrc2 && (
+                            <Image
+                              src={imageSrc2} // replace with your image in public/
+                              alt={alternative2}
+                              width={1000}
+                              height={1000}
+                              className="rounded-lg"
+                            />
+                          )}
                         </div>
-          
-                        {/* Text */}
+
+                        
                         <div className="w-full md:w-1/2 space-y-4 mx-auto p-6 rounded-lg">
                           <p className="text-black dark:text-black-300 font-serif">
                             {text1}
                           </p>
                           <p className="text-black dark:text-black-300 font-serif">
                             {text2}
+                          </p>
+                          <p className="text-black dark:text-black-300 font-serif">
+                            {text3}
                           </p>
                         </div>
                       </div>        
@@ -52,10 +62,13 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                         {/* Text */}
                         <div className="w-full md:w-1/2 space-y-4 mx-auto p-6 rounded-lg">
                           <p className="text-black dark:text-black-300 font-serif">
-                            {text3}
+                            {text4}
                           </p>
                           <p className="text-black dark:text-black-300 font-serif">
-                            {text4}
+                            {text5}
+                          </p>
+                          <p className="text-black dark:text-black-300 font-serif">
+                            {text6}
                           </p>
                         </div>
                         
@@ -63,8 +76,8 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                       {/* Image */}
                         <div className="max-w-lg h-full md:w-1/2 mx-auto py-4">
                           <Image
-                            src={imageSrc2} // replace with your image in public/
-                            alt={alternative2}
+                            src={imageSrc3} // replace with your image in public/
+                            alt={alternative3}
                             width={1000}
                             height={1000}
                             className="rounded-lg"
