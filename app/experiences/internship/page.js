@@ -12,7 +12,7 @@ export default function Page() {
             imageSrc={"/boston.jpg"}
             heading={"Boston"}
             text={"Fast Internship"}
-            secondText={""}
+            secondText={"My time in Boston"}
             >
             </HeroSection>
 

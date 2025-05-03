@@ -13,13 +13,11 @@ export default function Page() {
           imageSrc={"/spreadsheet.jpg"}
           heading={"Spreadsheet"}
           text={"Internal Financial App"}
-          secondText={"Making my life easier"}
+          secondText={"Taking initiative"}
         />
 
 
       {/* Experience Body with motion */}
-
-
         <ExperienceBody
           imageSrc1={"/montana.jpg"}
           alternative1={"Montana"}
