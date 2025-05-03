@@ -4,12 +4,29 @@ import Link from "next/link";
 import Navbar from "@/components/navbar";
 import { useRef } from "react";
 import HeroSection from "@/components/heroSection";
+import { motion, useInView } from "framer-motion";
 
 export default function Page() {
+   // Refs for sections
+   const heroRef = useRef(null);
+   const firstSectionRef = useRef(null);
+   const secondSectionRef = useRef(null);
+ 
+   // Detect when sections are in view
+   const isHeroInView = useInView(heroRef, { once: true });
+   const isFirstSectionInView = useInView(firstSectionRef, { once: true });
+   const isSecondSectionInView = useInView(secondSectionRef, { once: true });
     return (
       //This is the initial photo and navbar part of the page
       <div className="space-y-16">
 
+        <motion.div
+        ref={heroRef}
+        initial={{ opacity: 0, y: -50 }}
+        animate={isHeroInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.5 }}
+        className="motion-container"
+      >
         <HeroSection
                 imageSrc={"/Glacier.jpg"}
                 heading={"Glacier"}
@@ -18,8 +35,17 @@ export default function Page() {
                 >
             </HeroSection>
 
+        </motion.div>
 
-        <div className="w-full max-w-5xl space-y-4 mx-auto p-6 rounded-lg items-center justify-center">
+
+
+        <motion.div
+        ref={firstSectionRef}
+        initial={{ opacity: 0, y: -50 }}
+        animate={isFirstSectionInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 1.5 }}
+      >
+      <div className="w-full max-w-5xl space-y-4 mx-auto p-6 rounded-lg items-center justify-center">
         <h1 className="text-black text-2xl md:text-6xl py-4 font-bold">I'm not perfect, but He is.</h1>
           <p className="text-black dark:text-black-300 font-serif">
             I grew up in Kirkland, Washington, a suburb of Seattle, in a very loving family. I was very much a rule-following kid, always looking to ensure that mom and dad were happy with me. Due to my both my parents following Jesus
@@ -55,8 +81,15 @@ export default function Page() {
             </p>
           </div>
 
+          </motion.div>
 
 
+        <motion.div
+        ref={secondSectionRef}
+        initial={{ opacity: 0, y: -50 }}
+        animate={isSecondSectionInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 1.5 }}
+      >
           <section className="flex flex-col items-center max-w-full bg-[#D3D3D3] py-8">
   
             {/* Heading */}
@@ -109,6 +142,7 @@ export default function Page() {
                 </div>
             </div>
           </section>
+          </motion.div>
       </div>
     );
   }
