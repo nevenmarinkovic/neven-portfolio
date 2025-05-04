@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "@/components/navbar";
 import { useRef } from "react";
 import HeroSection from "@/components/heroSection";
 import {motion, useInView} from "framer-motion";
@@ -70,14 +69,14 @@ export default function Home() {
           <h2 className="text-2xl text-black font-semibold text-center">A little about me</h2>
           <p className="text-black dark:text-black-300 ">
             I'm Neven Marinkovic, a follower of Christ, graduating senior from the University of Montana, associate consultant with Ravus, soon-to-be married man, 
-            and lover of pickleball. That was a lot, click the button below to read more about me and my story.
+            and lover of pickleball. Click the button below to read more about me and my story.
           </p>
           
           {/* This wrapper centers the button */}
           <div className="flex justify-center">
             <Link href="/about">
               <button className="mt-4 px-6 py-2 bg-white dark:bg-gray-800 text-white rounded hover:bg-[#D2ECF0] ">
-                Learn More
+                Learn more
               </button>
             </Link>
           </div>
@@ -93,7 +92,7 @@ export default function Home() {
       >
       {/* Experiences Card Slider Section */}
       <section className="relative overflow-x-auto max-w-full px-4 bg-[#D3D3D3]">
-      <h2 className="text-center text-3xl font-bold text-black py-8">My Experiences</h2>
+      <h2 className="text-center text-3xl font-bold text-black py-8">My experiences</h2>
       <div className= "flex justify-center">
         <div ref={scrollRef} className="mx-auto h-65 scrollbar-thin scrollbar-thumb-[#2E798A] scrollbar-track-[#f1f1f1] flex gap-8 overflow-x-scroll pb-4">
           {experiences.map((exp, i) => (

@@ -18,7 +18,8 @@ Upon reading through the final project overview on our class's website, I was no
 ## App Details
 
 ## To-do
-* Think about paragraph formatting on about and experience pages. Make sure to break up the text. Increase font size?
+* Check grammar
+* Change favicon
 * Make the app flexible for mobile formats
 * Add in embedded links to GitHub and Observable portfolio
 

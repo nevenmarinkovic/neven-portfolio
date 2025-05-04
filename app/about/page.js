@@ -1,7 +1,5 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
-import Navbar from "@/components/navbar";
 import { useRef } from "react";
 import HeroSection from "@/components/heroSection";
 import { motion, useInView } from "framer-motion";
@@ -60,7 +58,7 @@ export default function Page() {
             They grounded me and I was left mostly alone during my last three weeks before college. I had lots of time to reflect on the previous year. I remember feeling like I had woken up from a dream. That I was Neven from birht to senior year, some other guy during senior year, and I was back to being Neven.
             I had decided that I was not going to do the same things in college, and that, to repair my relationship with my parents, I was going to find a church to go to (because I knew they wanted me to).
           </p>
-          <h2 className="text-black text-2xl md:text-6xl py-4 font-bold">The Good News</h2>
+          <h2 className="text-black text-2xl md:text-6xl py-4 font-bold">The good news</h2>
           <p className="text-black dark:text-black-300 font-serif">
             I decided to come to the University of Montana because it was affordable, far enough away from home, and I thought the people were down to earth when I visited. On my first day on campus, after moving into my dorm, I was walking around the oval (center of campus).
             All of the clubs and organizations were out on the oval tabling. I started talking to this very tall guy at one of the tables. His name is Jordan. I found out that he used to play basketball at the University of Idaho. We connected over basketball and I remember thinking that he was a cool guy.
@@ -94,7 +92,7 @@ export default function Page() {
   
             {/* Heading */}
             <h2 className="text-black text-2xl md:text-6xl py-8 font-bold">
-              Looking Forward
+              Looking forward
             </h2>
 
             {/* Flex container for image and text */}

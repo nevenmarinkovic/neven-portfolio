@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Navbar from "@/components/navbar";
 import { motion } from "framer-motion";
 
 export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alternative2, imageSrc3, alternative3, imageSrc4, alternative4, text1, text2, text3, text4, text5, text6 }) {
