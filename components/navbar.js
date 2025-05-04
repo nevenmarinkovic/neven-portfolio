@@ -15,6 +15,7 @@ const navigation = [
       { name: 'Student Minister', href: '/experiences/ministry' },
       { name: 'Portfolio Website', href: '/experiences/portfolio' },
       { name: 'Finance App', href: '/experiences/finance' },
+      { name: 'Data Visualization', href: '/experiences/data' },
     ],
   },
 ]

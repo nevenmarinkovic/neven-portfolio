@@ -20,6 +20,7 @@ Upon reading through the final project overview on our class's website, I was no
 ## To-do
 * Think about paragraph formatting on about and experience pages. Make sure to break up the text. Increase font size?
 * Make the app flexible for mobile formats
+* Add in embedded links to GitHub and Observable portfolio
 
 ### References
 * https://www.pexels.com/photo/urban-street-with-parked-cars-in-city-setting-31760079/
@@ -28,6 +29,7 @@ Upon reading through the final project overview on our class's website, I was no
 * https://www.pexels.com/photo/white-notebook-and-yellow-pencil-45718/
 * https://www.pexels.com/photo/close-up-photo-of-survey-spreadsheet-590022/
 * https://www.pexels.com/photo/notebook-beside-the-iphone-on-table-196644/
+* https://www.pexels.com/photo/document-on-top-of-stationery-669619/
 
       
 

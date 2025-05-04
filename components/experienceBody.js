@@ -17,7 +17,7 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.3 }}
-                  transition={{ duration: 1.5 }}
+                  transition={{ duration: 1 }}
                 >
                 <section className="flex flex-col items-center max-w-full py-8">
             
@@ -69,7 +69,7 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.3 }}
-                  transition={{ duration: 1.5 }}
+                  transition={{ duration: 1 }}
                 >
                   <section className="flex flex-col items-center max-w-full py-8 bg-[#D3D3D3]">
                 

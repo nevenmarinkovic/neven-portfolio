@@ -29,6 +29,7 @@ export default function Page() {
             }
             text4={"I am proud that I took some time to design out the site before I started coding. I used Lucid to get an idea of how I wanted the site's pages to look. As you can see, the original diagram is not that different from the finished site. I utilized squarespace as a reference for the design of the site. Looking at their example sites gave me the idea of including a hero section at the top of each page. I also liked the idea of having some animation in between sections of the page. "
               + "I am still growing in my ability to design a site, but I am proud of the strides I've made in understanding and getting comfortable using React and CSS. I am very excited to continue to refine and improve this site as I grow in my capabilities and have more experiences to share. Through the process of building this site, I realized I don't take a ton of photos. I am going to make a conscious effort to take more photos of my experiences so that I can share them with others. "
+              + "Click the GitHub link below to see the code for this site."
             }
             
               >
