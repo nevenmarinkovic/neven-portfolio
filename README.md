@@ -16,6 +16,10 @@ Upon reading through the final project overview on our class's website, I was no
 
 
 ## App Details
+* **experiences**: Contains all of my experience pages
+* **components**: Houses reusable React components that can be used across different parts of the application. Specifically, the navigation bar, footer, hero section, and body of the experience pages.
+* **public**: Stores static assets (images) used throughout the website.
+* **app**: Contains the main application logic, including page components and routing configuration for the Next.js application.
 
 ## To-do
 * Check grammar
@@ -34,6 +38,7 @@ Upon reading through the final project overview on our class's website, I was no
 
       
 
+## Next.js Description and Instructions
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:

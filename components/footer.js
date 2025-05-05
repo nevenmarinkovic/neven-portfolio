@@ -9,7 +9,7 @@ export default function Footer() {
         <Link href="/experiences">Experiences</Link>
         </nav>
         <div className="flex flex-col items-center">
-          <p className="text-sm">&copy; {new Date().getFullYear()} Neven Marinkovic. All rights reserved.</p>
+          <p className="text-sm">&copy; {new Date().getFullYear()} Neven Marinkovic</p>
           <div className="flex space-x-4 mt-2">
           <a
             href="https://www.linkedin.com/in/neven-marinkovic/"

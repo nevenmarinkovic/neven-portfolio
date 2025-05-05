@@ -46,14 +46,14 @@ export default function Page() {
       <div className="w-full max-w-5xl space-y-4 mx-auto p-6 rounded-lg items-center justify-center">
         <h1 className="text-black text-2xl md:text-6xl py-4 font-bold">I'm not perfect, but He is.</h1>
           <p className="text-black dark:text-black-300 font-serif">
-            I grew up in Kirkland, Washington, a suburb of Seattle, in a very loving family. I was very much a rule-following kid, always looking to ensure that mom and dad were happy with me. Due to my both my parents following Jesus
-            and my rule-following nature, I am sure that people looking at me thought I was a follower as well. However, that was not the case. When I arrived at high school, a religious high school, I quickly learned that most of 
+            I grew up in Kirkland, Washington, a suburb of Seattle, in a very loving family. I was very much a rule-following kid, always looking to ensure that mom and dad were happy with me. Due to both my parents following Jesus
+            and my rule-following nature, I am sure that people looked at me and thought I was a follower as well. However, that was not the case. When I arrived at my religious high school, I quickly learned that most of 
             the "believers" around me lived weekend-lives that did not align with their proclaimed beliefs. I remember having the thought "religion must not mean much" since people didn't care that their actions didn't align with their beliefs.
             However, I stayed away from the partying for my first years in high school. I was in a friend group that was focused on athletics and academics. We found fun in playing video games, board games, and spike ball. In coming to high school,
             I had aspirations of playing basketball in college. Basketball had always been my favorite sport and Seattle has a very strong basketball league. However, by my senior year, I knew that I didn't want to play after high school. Our basketball coach
             pushed us hard, attempting to replicate a collegiate environment. Looking back, I am so grateful for the way he ran the program as it taught me so many important life lessons. It also showed me that I didn't love the grind of basketball training and practices
             enough to try and play at the next level. Before my senior year, my main rationale for staying away from the party scene was because I wanted to play college basketball and because I respected my parents. When I decided I wasn't going to play after high school,
-            it was as if one of the two gates holding back the flood was gone. Soon after, the other gate was gone too. My senior year was filled with me pursuing whatever I wanted. It led me into dangerous situations as a result of alcohol and marijuana consumption. I knew that
+            it was as if one of the two gates holding back the flood was gone. Soon after, the other gate was gone too. My senior year was filled with me pursuing whatever I wanted. It led me into dangerous situations as a result of poor decision making. I knew that
             my behavior was dangerous and wrong, but I couldn't pull myself up out of it. A few weeks before I came to Missoula for college, my parents found out about my shenanigans. While it sucked to tell my parents what I had been up to and see how upset they were, it was probably the most freeing conversation I've ever had.
             They grounded me and I was left mostly alone during my last three weeks before college. I had lots of time to reflect on the previous year. I remember feeling like I had woken up from a dream. That I was Neven from birht to senior year, some other guy during senior year, and I was back to being Neven.
             I had decided that I was not going to do the same things in college, and that, to repair my relationship with my parents, I was going to find a church to go to (because I knew they wanted me to).
@@ -64,7 +64,7 @@ export default function Page() {
             All of the clubs and organizations were out on the oval tabling. I started talking to this very tall guy at one of the tables. His name is Jordan. I found out that he used to play basketball at the University of Idaho. We connected over basketball and I remember thinking that he was a cool guy.
             He got my number and as I was leaving I realized that the table he was standing at was for a college church. I thought "awesome, I made a friend and I can just go to his church". We met up for lunch later that week and he started asking me about my faith background. 
             I told him that I was a Christian. I grew up going to church and went to a Catholic high school, I was Christian. He asked me a couple of questions and I realized that I didn't actually know who Jesus was or what it meant to follow him. He told me that God created a perfect world out of love.
-            He made us to be in relationship with him and with one another. However, people. being imperfect as they are, naturally make decisions all the time that go against God's design for how we were meant to live. He told me that these decisions lead us to a place of brokenness, which is where the world is today.
+            He made us to be in relationship with him and with one another. However, people, being imperfect as they are, naturally make decisions all the time that go against God's design for how we were meant to live. He told me that these decisions lead us to a place of brokenness, which is where the world is today.
             However, God, being loving and gracious, doesn't want to see his children and creation in a state of brokenness. He actually wants us to return to him, which is why he sent his son Jesus to live the perfect life according to his design, and then pay for all our shortcomings on the cross. 
             He told me that belief in Jesus and his sacrifice was the only way to return to God. He told me that it doesn't mean followers are perfect, by any means. But it means that we have hope in something greater than ourselves and hope for the future after death. Additionallly, it gives us daily direction and purpose
             in trying to be more like Christ each day. I remmeber thinking, "woah, if this is true, it certainly is worth following." I joined a bible study with Jordan than semester and started going to church consistently. I've been growing in my faith ever since. 
@@ -135,6 +135,8 @@ export default function Page() {
                     width={1000}
                     height={500}
                     className="rounded-lg"
+                    onClick={() => window.open("https://www.ravusinc.com/", "_blank")}
+                    style={{ cursor: "pointer" }}
                   />
 
                 </div>

@@ -23,7 +23,7 @@ export default function Home() {
     { title: "Student Minister", link: "/experiences/ministry", desc: "I currently work for the college church I have been a part of during my time in Missoula. Through this job, I learned a ton about communication, leadership, people, and myself." },
     { title: "FAST Internship", link: "/experiences/internship", desc: "I went to Boston in between my junior and senior year to work on an unemployment insurance project for the state of Massachusetts. This was my first 'real job'." },
     { title: "Portfolio Website", link: "/experiences/portfolio", desc: "The website your currently on! This was a dream of mine for quite some time." },
-    { title: "Data Visualization", link: "/experiences/data", desc: "An analysis of Christianity rates in Western Europe over time." },
+    { title: "Data Visualization", link: "/experiences/data", desc: "An analysis and visualization of Christianity rates in Western Europe over time." },
   ];
 
   return (
