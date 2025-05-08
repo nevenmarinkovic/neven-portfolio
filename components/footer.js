@@ -42,7 +42,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://observablehq.com/@neven-marinkovic-data-visualization"
+            href="https://observablehq.com/d/a1194b6a7b7041b0"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Observable Profile"

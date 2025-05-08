@@ -33,7 +33,7 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                             alt={alternative1}
                             width={1000}
                             height={1000}
-                            className="rounded-lg"
+                            className="rounded-xl"
                           />
                           {imageSrc2 && (
                             <Image
@@ -41,7 +41,7 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                               alt={alternative2}
                               width={1000}
                               height={1000}
-                              className="rounded-lg"
+                              className="rounded-xl"
                             />
                           )}
                         </div>
@@ -100,7 +100,7 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                             alt={alternative3}
                             width={1000}
                             height={1000}
-                            className="rounded-lg"
+                            className="rounded-xl"
                           />
                           {imageSrc4 && (
                             <Image
@@ -108,7 +108,7 @@ export default function ExperienceBody({ imageSrc1, alternative1, imageSrc2, alt
                               alt={alternative4}
                               width={1000}
                               height={1000}
-                              className="rounded-lg"
+                              className="rounded-xl"
                             />
                           )}
                         </div>    

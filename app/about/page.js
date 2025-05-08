@@ -105,7 +105,7 @@ export default function Page() {
                   alt="Engaged"
                   width={1000}
                   height={1000}
-                  className="rounded-lg"
+                  className="rounded-xl"
                 />
               </div>
 
@@ -134,7 +134,7 @@ export default function Page() {
                     alt="Ravus"
                     width={1000}
                     height={500}
-                    className="rounded-lg"
+                    className="rounded-xl"
                     onClick={() => window.open("https://www.ravusinc.com/", "_blank")}
                     style={{ cursor: "pointer" }}
                   />

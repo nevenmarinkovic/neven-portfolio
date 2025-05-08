@@ -57,11 +57,12 @@ export default function Home() {
       <section className="flex flex-col md:flex-row items-center justify-between max-w-full ">
         <div className="max-w-lg h-full md:w-1/2 mx-auto">
           <Image
-            src="/Hannah.jpg" // replace with your image in public/
+            src="/Hannah2.JPG" // replace with your image in public/
             alt="Hiking"
             width={1000}
             height={1000}
-            className="rounded-lg"
+            className="rounded-xl"
+            
           />
 
         </div>
